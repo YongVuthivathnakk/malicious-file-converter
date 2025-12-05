@@ -32,7 +32,7 @@ export function SystemRequirements() {
               <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
               <span className="text-muted-foreground">Processor: 1.5 GHz or faster</span>
             </li>
-            <button onClick={handleDownload} className="mt-8 w-full px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition">
+            <button onClick={handleDownload} className="mt-8 w-full px-6 py-3 bg-primary text-primary-foreground cursor-pointer rounded-lg font-semibold hover:opacity-90 transition">
               Download for Windows
             </button>
           </ul>

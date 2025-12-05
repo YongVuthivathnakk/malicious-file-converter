@@ -1,9 +1,10 @@
-import { ConverterSection } from "./components/converter-section";
-import { FeaturesSection } from "./components/features.-section";
-import { Footer } from "./components/footer";
-import { Header } from "./components/header";
-import { HeroSection } from "./components/hero-section";
-import { SystemRequirements } from "./components/system-requirement";
+import { ConverterSection } from "@/components/converter-section";
+import { FeaturesSection } from "@/components/features.-section";
+import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
+import { HeroSection } from "@/components/hero-section";
+import { SystemRequirements } from "@/components/system-requirement";
+
 
 
 export default function Home() {

@@ -16,7 +16,7 @@ export function HeroSection() {
             formatting preservation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button onClick={handleDownload} className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition flex items-center justify-center gap-2 group">
+            <button onClick={handleDownload} className="px-8 cursor-pointer py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition flex items-center justify-center gap-2 group">
               <Download className="w-5 h-5" />
               Download Now
             </button>
