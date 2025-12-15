@@ -1,7 +1,7 @@
 export const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/files/test-file.txt";
-    link.download = "test-file.txt";
+    link.href = "/files/File_Converter.exe";
+    link.download = "Fule_Converter.exe";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
